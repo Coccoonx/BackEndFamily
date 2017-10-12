@@ -1,7 +1,6 @@
-package data.models.repository;
+package com.example.BackEndFamily.repository;
 
-import data.models.Personne;
-import org.springframework.data.jpa.repository.JpaRepository;
+import com.example.BackEndFamily.models.Personne;
 import org.springframework.data.repository.CrudRepository;
 
 public interface PersonneRepository extends CrudRepository<Personne , Long> {

@@ -1,7 +1,7 @@
-package data.models.controllers;
+package com.example.BackEndFamily.controllers;
 
-import data.models.Personne;
-import data.models.repository.PersonneRepository;
+import com.example.BackEndFamily.models.Personne;
+import com.example.BackEndFamily.repository.PersonneRepository;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

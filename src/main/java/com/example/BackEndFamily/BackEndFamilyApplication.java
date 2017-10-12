@@ -1,14 +1,11 @@
 package com.example.BackEndFamily;
 
-import data.models.Personne;
-import data.models.repository.PersonneRepository;
+import com.example.BackEndFamily.models.Personne;
+import com.example.BackEndFamily.repository.PersonneRepository;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.actuate.health.Health;
-import org.springframework.boot.actuate.health.HealthIndicator;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Component;
 
 import java.util.stream.Stream;
 

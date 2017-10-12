@@ -1,4 +1,4 @@
-package data.models;
+package com.example.BackEndFamily.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
